@@ -1,0 +1,869 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F5F5F5 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+
+    
+}
+.p{
+    font-family: "gandom"; 
+}
+.footer p{
+    font-family: "hekayat";
+    font-size: 18px;
+}
+@font-face{
+    font-family: "gandom";
+    src: url("../font/گندم/Gandom.ttf") format("truetype");
+}
+@font-face{
+    font-family: "hekayat";
+    src: url("../font/Hekayat\ Font.ttf") format("truetype");
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    font-family: "gandom";
+  
+}
+.menutop{
+    width: 100%;
+    height: 30px;
+    background-color: #FF1744;
+    display: flex;
+    
+    
+}
+.menutopright{
+    width: 50%;
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+    
+
+}
+.menutopleft{
+    width: 50%;
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  
+}
+.menutopright div{
+    width: 200px;
+    height: 100%;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    margin-right: 50px;
+   
+    
+}
+.menutopright div p{
+    margin: auto 5px;
+    color: white;
+}
+.menutopleft div{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: white;
+    width: 400px;
+    margin-left: 40px;
+}
+.menutopleft div i,p{
+    margin: auto 5px;
+   
+    font-weight: bold;
+}
+.menutopright div p:nth-of-type(1){
+    background-color:white;
+    color: #FF1744;
+    width: 30px;
+    border-radius: 50%;
+    text-align:center;
+    font-weight: bold;
+}
+.menucenter{
+    width: 100%;
+    height: 80px;
+   background-color: #F5F5F5;
+    display: flex;
+}
+.menucenterright{
+    width: 60%;
+    height: 100%;
+   
+    display: flex;
+    align-items: center;
+}
+.menucenterleft{
+    width: 40%;
+    height: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menucenterright div:nth-of-type(1){
+
+    width: 20%;
+    height: 70%;
+    margin-right: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+.menucenterright div:nth-of-type(2){
+width:70%;
+height: 40%;
+margin-right: 20x;
+display: flex;
+align-items: center;
+
+
+}
+.menucenterleft div{
+  
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    
+}
+.menudown{
+    width: 100%;
+    height: 40px;
+  
+    border-bottom: 2px solid rgb(136, 185, 136);
+    
+}
+.menudown ul{
+background-color: white;
+display:flex;
+align-items: center;
+height: 100%;
+
+}
+.menudown ul a {
+    text-decoration: none !important;
+}
+.menudown ul a:hover {
+   color: red;
+}
+
+.menudown ul a li{
+    list-style-type: none;
+    margin: auto 15px;
+    margin-bottom: 10px;
+
+}
+.menumobile{
+    width: 100%;
+   
+    margin: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: start !important;
+    display: none;
+  
+    
+}
+.menumobile .colmenu{
+    
+    height: 50px;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    
+   
+}
+.swapper-menu{
+    width: 60%;
+    height: 100vh;
+    background-color: var(--gray);
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    right: -50px;
+    z-index: 999;
+    direction: rtl;
+    display: none;
+    background-color: rgb(225, 225, 236);
+
+}
+.swapper-menu .close-menu {
+    direction: ltr;
+}
+.swapper-menu .close-menu svg {
+    color: var(--red) !important;
+
+}
+
+.swapper-menu ul li {
+    margin-top: 2rem;
+    padding-right: 10px;
+}
+
+ .swapper-menu ul li a {
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: bolder;
+}
+.menumobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    display: none !important;
+  
+}
+
+.menumobile .navbar-mobile-list i {
+    cursor: pointer;
+}
+
+/* tabligh */
+.rowtabligh{
+    width: 96%;
+    font-family: "gandom";
+    margin: auto !important;
+    margin-top: 20px !important;
+    
+}
+/* tabligh */
+/* dastresy */
+.rowdastresy{
+    width: 100%;
+  
+    margin: auto !important;
+    margin-top: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+    font-family: "gandom";
+   
+}
+.coldastresy{
+display: flex !important;
+justify-content: space-around !important;
+align-items: center !important;
+
+        
+
+}
+.coldastresy div{
+    margin: auto 10px;
+    display: flex !important;
+    width: 200px;
+}
+.divdastresy{
+    margin-top: 20px !important;
+}
+.coltabligh{
+    position: relative;
+}
+.ertebat{
+    width: 50px;
+    height: 115px;
+    
+    position:fixed;
+    right: 5px;
+    z-index: 1;
+}
+.text{
+    display: flex !important;
+    flex-direction: column !important;
+}
+.mahsolat{
+    width: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: "gandom";
+ 
+}
+.cart{
+    width: 300px;
+    height: 350px;
+    /* background-color: darkcyan; */
+    margin: auto 15px;
+    display: flex;
+    flex-direction: column;
+ 
+    overflow: hidden;
+    margin-top: 10px;
+   
+}
+.cart a{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none !important;
+}
+.cart img{
+    width: 100%;
+   height: 80%;
+   overflow: hidden;
+   border-radius: 10px;
+}
+
+.mahsolat2{
+    width: 100%;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+ 
+}
+.cart2{
+    width: 300px;
+    height:350px;
+    /* background-color: darkcyan; */
+    margin: auto 15px;
+    display: flex;
+    flex-direction: column;
+    
+    overflow: hidden;
+    margin-top: 10px;
+
+    
+}
+
+.cart2 a{
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none !important;
+}
+.cart2 a:hover{
+    text-decoration: none;
+}
+.cart2 img{
+    width: 100%;
+   height: 80%;
+   overflow: hidden;
+   border-radius: 10px;
+   
+}
+.cart img{
+    width: 100%;
+   height: 80%;
+   overflow: hidden;
+   border-radius: 10px;
+   
+}
+.cart:hover{
+    transform: scale(1.1, 1.1);
+}
+.cart2:hover{
+    transform: scale(1.1, 1.1);
+}
+.cart img:hover{
+    border: 1px solid rgb(231, 108, 108);
+}
+.cart2 img:hover{
+    border: 1px solid rgb(231, 108, 108);
+}
+.porforosh{
+    width: 97%;
+    background-color: seagreen;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: auto !important;
+    font-family: "gandom";
+}
+.mahsolporforosh{
+    width: 100%;
+    background-color: yellow;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-family: "gandom";
+}
+.carosle{
+    display: flex !important;
+    justify-content: center!important;
+    align-items: center !important;
+}
+.box img{
+    width: 100%;
+    height: 60%;
+}
+.box{
+    width: 100px;
+    margin: auto;
+    
+    direction: rtl;
+    padding-bottom: 10px;
+
+    border-radius: 10px;
+    background-color: rgb(230, 225, 225);
+}
+.box a{
+    font-size: 17px;
+    background-color: rgb(197, 188, 53);
+    text-decoration: none;
+   
+}
+/* dastresy */
+/* parentpoforosh */
+.parentpoforosh{
+width: 95%;
+height: 300px;
+background-color: #FF1744;
+margin: auto;
+margin-top: 100px;
+position: relative;
+display: flex;
+justify-content: center;
+
+}
+.childporforosh{
+    width: 90%;
+
+    background-color: white;
+    position: absolute;
+    top:-60px;
+    font-family: "gandom";
+   
+    
+   
+}
+.childporforoshtop{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    font-family: "gandom";
+   
+}
+.childporforoshbuttom{
+    width: 100%;
+    height: 90%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "gandom";
+}
+.boxfirosh{
+    margin: auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding:10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.boxfirosh img{
+width: 95%;
+border: 1px solid rgb(224, 218, 218);
+border-radius: 20px;
+}
+.boxfirosh:hover{
+box-shadow:0 0 10px 2px rgb(97, 95, 95);
+}
+.childporforoshtopr{
+    width: 20%;
+    background-color: red;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.childporforoshtopc{
+    width: 60%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 20px;
+}
+.childporforoshtopl{
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 20px;
+}
+.boxfirosh div p:nth-of-type(1){
+    font-weight: bolder !important;
+    font-size: 18px;
+  
+}
+.boxfirosh div p:nth-of-type(3){
+    color: rgb(204, 20, 20);
+  
+}
+.boxfirosh div p:nth-of-type(2){
+    opacity: 70%;
+  
+}
+.footer{
+    width: 100%;
+   
+    background-color: #F5F5F5;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.footertop{
+    width: 90%;
+
+   
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+
+
+}
+.footertopr{
+    width: 40%;
+    height: 100%;
+  
+}
+.footertopl{
+   width: 60%;
+    height: 100%;
+padding-right: 40px;
+    margin-top: 20px;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+   
+}
+.footertopr img{
+    width: 100%;
+    height: 100%;
+}
+.footertopl div:nth-of-type(1){
+    display: flex;
+    align-items: center;
+ width: 100%;
+    height:150px;
+    
+}
+.footertopl div:nth-of-type(2){
+    display: flex;
+    align-items: center;
+ width: 100%;
+    
+  
+}
+.footertopl div:nth-of-type(3){
+    width: 100%;
+    display: flex;
+    align-items: center;
+  
+}
+.footertopl div img{
+height: 50%;
+border-radius: 10px;
+}
+
+/* parentpoforosh */
+/* poshtibani */
+.rowposhtinany{
+    width: 100%;
+  
+    
+    display: flex !important;
+ 
+    
+    align-items: center !important;
+    justify-content: center !important;
+}
+.colposhtibani{
+    display: flex !important;
+    background-color: #739e1e;;
+justify-content: center;
+font-size: 23px;
+color: white;
+
+}
+.colposhtibani p{
+    font-size: 28px;
+}
+.rowetebat{
+    width: 100%;
+    height: 150px;
+  
+    padding-top: 30px;
+}
+.listertebat{
+    display: flex;
+    align-items: center;
+}
+.listertebat li{
+    list-style-type: none;
+    margin: 10px;
+}
+.colertebat{
+    display: flex;
+    align-items: center;
+}
+.colertebat div:nth-of-type(1){
+    width: 80%;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center;
+    
+    font-size: 20px;
+}
+.footer a{
+    text-decoration: none !important;
+}
+/* poshtibany */
+
+/* login */
+.parent-form{
+    width: 95%;
+    height: 450px;
+    margin: auto;
+    margin-top: 30px;
+    direction: rtl;
+    display: flex;
+    justify-content: center;
+   
+    background-color: #F5F5F5;
+    box-shadow: 0 0 10px 2px black;
+ 
+    
+ 
+}
+/* ligin */
+.parent-form .form{
+    width: 60%;
+    background-color:white;
+   padding: 1rem;
+   border-radius: 10px;
+margin: auto;
+
+}
+.form a{
+    text-decoration: none;
+  
+}
+
+/* login */
+
+/* parentmoharefy */
+.parentmoharefy{
+width: 90%;
+
+height: 600px;
+margin-top: 50px;
+display:  flex;
+margin: auto !important;
+font-family: "gandom";
+margin-top: 20px !important;
+
+}
+
+.parentmoharefyr{
+    width: 80%;
+    background-color: white;
+ height: 100%;
+    display: flex;
+  
+    
+}
+.parentmoharefyl{
+    width: 18%;
+    background-color: white;
+    height: 25%;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px !important;
+ 
+ font-family: "gandom";
+}
+.childmoharefyr{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.childmoharefyl{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+ padding-right: 10px;
+ font-family: "gandom";
+ 
+}
+.cart{
+    width: 60%;
+    height: 70%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.honvan{
+    width: 95%;
+    height: 10%;
+   
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.honvanr{
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+.honvanl{
+    display: flex;
+    align-items: center;
+    
+
+    
+
+   
+}
+
+.alagheh {
+    font-size: 12px;
+   
+   
+  width: 150px;
+  
+   
+}
+.alagheh:hover{
+ 
+  
+}
+
+.honvanl{
+    width: 145px;
+    height: 65px;
+   
+    animation-name: example;
+    animation-duration: 4s;
+    position: relative;
+    
+}
+.honvanl .alagheh:hover{
+    transform: translateY(4.7rem);
+    transition: all 1s ease-in;
+}
+/* div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  } */
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:112px; top:0px; border-radius: 20px;}
+    50%  {background-color:blue; left:112px; top:30px;border-radius: 0;}
+    75%  {background-color:green; left:0px; top:30px;border-radius: 20px;}
+    100% {background-color:white; left:0px; top:0px;}
+  }
+
+  
+/* parentmoharefy */
+
+/* tbmahsol */
+.tbmahsol{
+   border: none;
+   width: 100%;
+
+}
+.tbmahsol tr{
+    border: 1px dashed black;
+   border-right: 0;
+   border-left: 0;
+
+  
+}
+.tbmahsol tr td{
+ padding: 10px;
+
+  
+}
+.prenttb{
+    width: 90%;
+   
+    margin-top: 30px;
+}
+.parentmoharefyl div:nth-of-type(1){
+    display: flex;
+    justify-content: center;
+}
+.parentmoharefyl div:nth-of-type(2){
+    display: flex;
+    
+}
+.parentmoharefyl div:nth-of-type(3){
+    display: flex;
+    justify-content: center;
+}
+.darbareh{
+   font-size: 15px;
+   font-weight: normal;
+   font-family: "gandom";
+}
+/* tbmahsol */
+/* rowabout */
+.rowabout{
+  padding-top: 15px;
+}
+.colabout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colabout img{
+width: 100%;
+}
+.material-icons.about{
+    color: rgb(12, 136, 158);
+    margin-left: 10px;
+}
+.email{
+    color: rgb(19, 176, 204);
+}
+a{
+    text-decoration: none !important;
+}
+.card-body p:nth-of-type(1){
+    color: rgb(216, 15, 15);
+}
+/* rowabout */
+

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- ! bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <!-- ! bootstrap -->
+ <!-- ! owlCarousel  -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+ <!-- ! owlCarousel  -->
+    <link rel="stylesheet" href="assest/style/style.css">
+    <link rel="stylesheet" href="assest/style/responsiv.css">
+  
+   
+   
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- icon -->
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- aos -->
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="menutop">
+                <div class="menutopright">
+                    <div>
+                        <p>?</p>
+                        <p>راهنما خرید</p>
+                    </div>
+                </div>
+                <div class="menutopleft">
+                    <div>
+                        <i class="material-icons">mobile_friendly</i>
+                        <p style="margin-left: 10px;">دانلود اپلیکیشن</p>
+                        <i class="material-icons">phone_enabled</i>
+                        <p>تماس با پشتیبانی :33448518</p>
+                    </div>
+                </div>
+        </div>
+        <div class="menucenter">
+            <div class="menucenterright">
+                <div>
+                    <img src="assest/img/logo-red.svg">
+                </div>
+                <div>
+                    <input type="text" placeholder="کالا مورد نظر خود را در این قسمت جستجو کنید"  style="width: 80%;height: 92%;text-align: center;border: none;outline: none;">
+           <button type="submit" style="width: 20%;height: 100%;border: none;outline: none; background-color: white;text-align: left;background-color: rgb(236, 229, 227);"> <a href=""> <i class="material-icons">search</i></a></button>
+                </div>
+            </div>
+            <div class="menucenterleft">
+                <div>
+                  <a href="">  <i class="material-icons" style="color: #FF1744;font-size: 40px;width: 40px;height: 50px;">location_off</i></a>
+                    <a href=""><p style="margin-left: 20px;">محدوده خود را انتخاب کنید</p></a>
+                  <a href="">  <i class="material-icons" style="color: white;background-color:#FF1744 ;border-radius: 50%;font-size: 25px;text-align: center;width: 35px;height: 40px;display: flex;align-items: center;justify-content: center;">person_outline</i></a>
+                  <a href="login.html"><p style="margin-left: 30px;margin-right: 10px;"> ورود / ثبت نام</p></a>
+                 <a href=""> <i class="fas fa-cart-plus" style="color: white;background-color:#FF1744 ;border-radius: 50%;font-size: 25px;text-align: center;width: 35px;height: 40px;display: flex;align-items: center;justify-content: center;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="menudown">
+            <ul>
+               
+                <a href="index.html">
+                  <li><i class="material-icons">home</i></li>
+                    
+                </a>
+            
+                <a href="" >
+                    
+                    <li>مواد غذایی</li>
+                </a>
+                <a href="">
+                    <li>لبنیات و صبحانه</li>
+                </a>
+                <a href="">
+                    <li>نوشیدنی ها</li>
+                </a>
+                <a href="">
+                    <li>کنسرو و غذای آماده</li>
+                </a>
+                <a href="">
+                    <li>شیرینی و تنقلات</li>
+                </a>
+                <a href="">
+                    <li>شوینده و بهداشتی</li>
+                </a>
+                <a href="">
+                    <li>لوازم مصرفی و فرهنگی</li>
+                </a>
+               
+            </ul>
+        </div>
+    </header>
+
+
+    <div class="row menumobile" style="background-color: red;display: none; " >
+        
+            <div class="col-sm-6 col-md-6 col-lg-3 colmenu" >
+                <div class="navbar-mobile-list" id="open">
+                    <i class="fas fa-bars" style="color: white;"></i>
+                </div>
+                <div class="swapper-menu" id="swapper">
+                    <div class="close-menu" id="close">
+                        <i class="fas fa-times fa-2x"></i>
+                    </div>
+                    <hr>
+                    <ul>
+                        <li><a href="">مواد غذایی</a></li>
+                        <li><a href="">لبنیات و صبحانه</a></li>
+                        <li><a href=""> کنسرو و غذای آماده</a></li>
+                        <li><a href="">شیزینی و تنقلات</a></li>
+                        <li><a href="">شوینده و بهداشتی</a></li>
+                        <li><a href="">لوازم مصرفی و فرهنگی</a></li>
+                    </ul>
+                </div>
+                <a href="">  <i class="material-icons" style="margin-right: 20px;color: #FF1744;background-color:white;border-radius: 50%;font-size: 20px;text-align: center;width: 30px;height: 30px;display: flex;align-items: center;justify-content: center;">person_outline</i></a>
+                <a href="">  <i class="material-icons" style="color: white;font-size: 25px;margin-left: 10px;">location_off</i></a>
+            </div>
+            
+            <div class="col-sm-6 col-md-6 col-lg-3 colmenu"  >
+                <!-- <img src="assest/img/iG0gcyuwzt7maZOxqgWZQXum64GVpfViwS68cpNc.gif" style="height: 100%;"> -->
+                <div class="search" style="width: 330px;;display: flex;align-items: center;height: 35px;" >
+                    <input type="text" placeholder="جستجو "  style="width: 80%;height: 100%;text-align: center;border: none;outline: none;">
+           <button type="submit" style="width: 30%;height: 100%;border: none;outline: none; background-color: white;margin-left: 25px;background-color: rgb(236, 229, 227);text-align:center"> <a href=""> <i class="material-icons" >search</i></a></button>
+                </div>
+            
+            
+                
+                <a href=""> <i class="fas fa-cart-plus" style="margin-left: 0;color: white;border-radius: 50%;font-size: 20px;text-align: center;width: 50px;height: 50px;display: flex;align-items: center;justify-content: center;"></i></a>
+</div>
+</div>
+        
+      
+    </div>
+    <!-- header -->
+
+
+    <!-- tabligh -->
+    <div class="row rowtabligh">
+        
+        <div class="col-sm-12 coltabligh">
+            <div class="ertebat" >
+                <i class="material-icons" style="font-size: 30px;margin-top: 5px;background-color: #38b7be;;width: 40px;text-align: center;height:35px;color: white;border-radius: 5px;">adb</i>
+                <i class="fas fa-apple-alt" style="font-size: 30px;margin-top: 10px;background-color: #38b7be;;width: 40px;text-align: center;height:35px;color: white;border-radius: 5px;"></i>
+                <i class="material-icons" style="font-size: 30px;margin-top: 10px;background-color: #38b7be;;width: 40px;text-align: center;height:35px;color: white;border-radius: 5px;">contact_phone
+                </i>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
+                <div class="carousel-indicators" >
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner" style="border-radius: 20px;" >
+                  <div class="carousel-item active" >
+                    <img src="assest/img/خوشمزه.jpg" class="d-block w-100" alt="..."  style="border-radius: 20px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assest/img/پاکیزگی.jpg" class="d-block w-100" alt="..." style="border-radius: 20px;">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assest/img/سوپر.jpg" class="d-block w-100" alt="..." style="border-radius: 20px;">
+                  </div>
+               
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+    <!-- tabligh -->
+
+<div class=" rowdastresy">
+    <div class=" coldastresy" >
+        
+        <div class="divdastresy">
+        <img src="assest/img/پرداخت.svg" alt="" style="width:40px;">
+        <div class="text" >
+        <h4>پرداخت آسان</h4>
+        <p>نقدی ، انلاین و کارتخوان</p>
+        </div>
+    </div>
+    <div class="divdastresy">
+        <img src="assest/img/ارسال رایگان.svg" alt="" style="width:50px;">
+        <div class="text">
+        <h4>ارسال رایگان</h4>
+        <p>سفارش بالای 40 هزار تومان</p>
+        </div>
+    </div>
+</div>
+    <!-- <div class="col-sm-12 col-md-5 coldastresy"  > -->
+        <div class=" coldastresy"style="margin-top:20px">
+    <div class="divdastresy" >
+        <img src="assest/img/تحویل.svg" alt="" style="width:50px;">
+        <div class="text" >
+        <h4>تحویل سریع</h4>
+        <p> از سوپرمارکت محله</p>
+        </div>
+    </div>
+    
+    <div class="divdastresy">
+        <img src="assest/img/پوشش کامل.svg" alt="" style="width:50px;">
+        <div class="text" >
+        <h4>پوشش کامل تهران</h4>
+        <p>اکثر مناطق 22 گانه تهران</p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- lahsolat -->
+<!-- <div class="mahsolat" data-aos="fade-left">
+<div class="cart">
+<img src="assest/img/شوینده.jpg">
+<a href="">شوینده</a>
+</div>
+<div class="cart">
+<img src="assest/img/لبنیات.jpg">
+<a href="">لبنیات</a>
+</div>
+<div class="cart">
+<img src="assest/img/نوشیدنی.jpg">
+<a href="">نوشیدنی</a>
+</div>
+
+</div> -->
+<div class="mahsolat2" data-aos="fade-left">
+    <div class="cart2">
+    <img src="assest/img/شوینده.jpg">
+    <a href="onepage.html">شوینده</a>
+    </div>
+    <div class="cart2">
+    <img src="assest/img/لبنیات.jpg">
+    <a href="onepage.html">لبنیات</a>
+    </div>
+    <div class="cart2">
+    <img src="assest/img/نوشیدنی.jpg">
+    <a href="onepage.html">نوشیدنی</a>
+    </div>
+    
+    </div>
+
+<div class="mahsolat2" data-aos="fade-left">
+    <div class="cart2">
+    <img src="assest/img/شیرنی.jpg">
+    <a href="onepage.html"> شیرینی</a>
+    </div>
+    <div class="cart2">
+    <img src="assest/img/لوازم مصرفی.jpg">
+    <a href="onepage.html">لوازم مصرفی</a>
+    </div>
+    <div class="cart2">
+    <img src="assest/img/کنسرو.jpg">
+    <a href="onepage.html">کنسرو</a>
+    </div>
+    
+    </div>
+<!-- lahsolat -->
+<div class="parentpoforosh">
+    <div class="childporforosh" data-aos="fade-down">
+        <div class="childporforoshtop">
+<div class="childporforoshtopr">
+    <p style="color: white;">محصولات پرفروش</p>
+</div>
+<div class="childporforoshtopc" >
+    <p>در این قسمت شما محصولات پرفروش تزول مارکت در یک ماه اخیر رو مشاهده میکنید</p>
+</div>
+<div class="childporforoshtopl">
+    <button type="button" class="btn btn-success" style="border-radius: 30px;height: 40px;width: 120px;background-color: #74B300;;">سایر محصولات</button>
+</div>
+        </div>
+        <div class="childporforoshbuttom">
+            <div class="card boxfirosh" style="width: 22rem;">
+    <a href="onepage.html">
+                <img src="assest/img/نوشابه کولا.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">نوشابه کولا</p></a>
+                  <p>1.5 لیتری</p>
+                  <br>
+                  <p>14,300 تومان</p>
+                </div>
+              </div>
+
+
+              <div class="card boxfirosh" style="width: 22rem;">
+                <a href="onepage.html">
+                <img src="assest/img/ماکارون.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">ماکارونی تک ماکارون</p></a>
+                  <p>500 گرمی</p>
+                  <br>
+                  <p>6,500 تومان</p>
+                </div>
+              </div>
+
+
+              <div class="card boxfirosh" style="width: 22rem;">
+                <a href="onepage.html">
+                <img src="assest/img/رب روژین.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">رب گوجه روژین</p></a>
+                  <p>800 گرمی</p>
+                  <br>
+                  <p>40,320 تومان</p>
+                </div>
+              </div>
+
+              <div class="card boxfirosh" style="width: 22rem;">
+                <a href="onepage.html">
+                <img src="assest/img/دستکش.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">دستکش رز مریم</p></a>
+                  <p>ساق کوتاه ساق بزرگ</p>
+                  <br>
+                  <p>14,000 تومان</p>
+                </div>
+              </div>
+
+              <div class="card boxfirosh" style="width: 22rem;">
+                <a href="onepage.html">
+                <img src="assest/img/شیرکامل.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">شیرکامل دامداران</p></a>
+                  <p>1 لیتری</p>
+                  <br>
+                  <p>8,600 تومان</p>
+                </div>
+              </div>
+
+
+        </div>
+        
+<div class=" footer" style="border-top: 1px solid black;">
+    <div class=" footertop">
+        <div class=" footertopr">
+            <img src="assest/img/foot.svg">
+        </div>
+        <div class=" footertopl">
+            <div>
+                <img src="assest/img/iG0gcyuwzt7maZOxqgWZQXum64GVpfViwS68cpNc.gif" style="margin-right: 10px;">
+                <p style="margin-right: 50px;font-weight: bold;font-size: 20px;" >دانلود اپلیکیشن تزول</p>
+            </div>
+            <div style="margin-top: 20px;margin-bottom: 30px;">
+                <p style="font-size: 18px;margin-right: 10px;opacity: 90%;">با دانلود و استفاده از اپلیکیشن تزول فرآیند سفارش های خود را با سرعت و راحتی بیشتری تجربه کنید.</p>
+            </div>
+            <div>
+                <img class="imgfot" src="assest/img/بازار.svg" width="130px;">
+                <img  class="imgfot" src="assest/img/بار.svg" width="150px">
+                <img  class="imgfot" src="assest/img/پلی.svg" width="150px">
+            </div>
+        </div>
+    </div>
+    
+
+
+    
+<div class="row rowposhtinany" style="border-top: 1px solid rgb(212, 210, 210);margin-top: 30px;">
+    <div class="col-sm-12 col-md-8 colposhtibani" >
+
+        <p>ارتباط با پشتیبانی تزول همه روزه از ساعت ۸:۳۰ الی ۱۹</p>
+    </div>
+    <div class="col-sm-12 col-md-4 colposhtibani" >
+    <p>شماره تلفن 33448518</p>
+    
+    </div>
+</div>
+
+<div class="row rowetebat" style="border-top: 1px solid rgb(212, 210, 210);margin-top: 30px;">
+    <div class="col-sm-12 col-md-7 colertebat">
+   <ul class="listertebat">
+       <a href="about.html">
+           <li>درباره ما</li>
+       </a>
+       <a href="">
+           <li>قوانین و مقررات</li>
+       </a>
+       <a href="">
+           <li>راهنمای کاربردی</li>
+       </a>
+       <a href="">
+           <li>سوالات متداول</li>
+       </a>
+       <a href="contact.html">
+           <li>تماس با ما</li>
+       </a>
+       <a href="">
+           <li>دانلود اپلیکیشن</li>
+       </a>
+    </ul>
+    
+    
+    </div>
+    <div class="col-sm-12 col-md-5 colertebat" style="flex-direction: column;">
+    
+<div>
+    <p>مارا در سایر شبکه ها دنبال کنید</p>
+    <i class="	fab fa-facebook-f"></i>
+    <i class="fab fa-telegram-plane"></i>
+    <i class="	fab fa-twitter"></i>
+</div>
+    
+<div>
+    <img src="assest/img/کشوری.png">
+    <img src="assest/img/درحال.png">
+    <img src="assest/img/انجمن.png">
+</div>
+
+
+
+    </div>
+</div>
+
+</div>
+    </div>
+   
+</div>   
+
+
+
+
+
+
+      
+        <!-- ! jquery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- ! jquery -->
+    <!-- ! bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- ! bootstrap -->
+    <!-- ! owl carousel  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- ! owl carousel  -->
+    <!-- ! font awesome -->
+    <script src="./assets/js/all.min.js"></script>
+    <!-- ! font awesome -->
+
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+           margin:10,
+           loop:true,
+           autoWidth:true,
+           items:4
+       })
+       </script>
+
+
+    <script>
+    
+const open = document.getElementById("open");
+const swapper = document.getElementById("swapper");
+const close = document.getElementById("close");
+
+open.addEventListener("click", () => {
+    swapper.style.display = "block"
+})
+
+close.addEventListener("click", () => {
+    swapper.style.display = "none"
+})</script>
+<!-- aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+  <!-- aos -->
+</body>
+</html>

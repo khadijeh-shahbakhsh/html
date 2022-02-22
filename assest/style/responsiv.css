@@ -1,0 +1,233 @@
+@media only screen and (max-width: 1000px){
+.footer{
+    margin-top: 50px;
+}
+.parentmoharefyr{
+    display: flex !important;
+    flex-direction: column;
+  
+}
+.childmoharefyl{
+    margin-top: 20px;
+    width: 100%;
+}
+.parentmoharefyr{
+    display: flex;
+    align-items: center;
+}
+}
+
+@media only screen and (max-width: 900px) {
+    header {
+        display: none !important;
+    }
+
+    .menumobile {
+        display: flex !important;
+    }
+    .colmenu{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    .colmenu i,p{
+        margin-right: 5px;
+    }
+    .mahsolat{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .mahsolat2{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .parentpoforosh{
+      height: 0;
+    }
+    .childporforoshbuttom{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .boxfirosh{
+        width: 15rem;
+    }
+    .parentmoharefyl{
+        display: none;
+    }
+    .parentmoharefyr{
+        width: 90%;
+        margin: auto;
+    }
+    /* .cart{
+        width: 200px;
+    } */
+    .coldastresy{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-around !important;
+        
+    }
+}
+@media only screen and (max-width: 800px) {
+    .search{
+        width: 60%;
+    }
+    .childporforoshbuttom{
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .coldastresy{
+        /* display: flex !important;
+        flex-wrap: wrap !important; */
+        font-size: 10px;
+    }
+    .coldastresy div{
+     /* display: flex !important;
+     flex-wrap: wrap !important; */
+     font-size: 10px;
+   
+ }
+ .childporforoshbuttom{
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+.coldastresy{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+    
+}
+
+ .coldastresy{
+     width: 100px;
+     margin-right: 50px;
+ }
+ .cart{
+    width: 250px;
+    height:270px;
+}
+.cart2{
+    width: 250px;
+    height:270px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footertop{
+    display: flex !important;
+  flex-direction: column;
+ }
+ .footertopr{
+     width: 100%;
+ }
+ .footertopl{
+    width: 100%;
+}
+.footertopl div:nth-of-type(2){
+    display: flex;
+   flex-wrap: wrap;
+   
+}
+.footertopl div:nth-of-type(3){
+    display: flex;
+   flex-wrap: wrap;
+   
+}
+.colertebat:nth-of-type(1)
+{
+    display: none;
+}
+   }
+
+   @media only screen and (max-width: 660px){
+
+    .footertopl{
+        padding-right:0 ;
+    }
+
+   }
+   @media only screen and (max-width: 660px){
+.cart{
+    width: 200px;
+    height: 220px;
+}
+.cart2{
+    width: 200px;
+    height: 220px;
+}
+.ertebat{
+    position: fixed;
+    right: -8px;
+    width: 20px;
+}
+   }
+   @media only screen and (max-width: 550px){
+    .childporforoshtopc{
+        display: none;
+    }
+    .childporforoshtop{
+        display: flex;
+        justify-content: space-around;
+    }
+    .childporforoshtopr{
+        width: 70%;
+     margin-left: 65px;
+    }
+    .kalamehobor{
+        font-size: 15px !important;
+    }
+    .h4{
+        font-size: 18px !important;
+    
+    }
+    .honvanl{
+        display: none
+        ;
+    }
+    .mahdodeh{
+        font-size: 15px !important;
+        width: 80% !important;
+        margin: auto !important;
+        margin-top: 10px !important;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+   }
+  @media only screen and (max-width: 450px) {
+    /* .childporforoshtopc{
+        display: none;
+    }
+    .childporforoshtop{
+        display: flex;
+        justify-content: space-around;
+    }
+    .childporforoshtopr{
+        width: 70%;
+     margin-left: 25px;
+    } */
+    .honvan p h3{
+        font-size: 10px;
+        
+    }
+    .cart{
+        width: 100%;
+    }
+   
+    .h4{
+        font-size: 15px !important;
+    }
+    .kalamehobor{
+        font-size: 9px !important;
+    }
+   
+    .honvan{
+        display: flex;
+        flex-direction: column;
+    }
+    .honvanl{
+        margin-bottom: 210px;
+    }
+}

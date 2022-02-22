@@ -1,0 +1,18 @@
+
+const open = document.getElementById("open");
+const swapper = document.getElementById("swapper");
+const close = document.getElementById("close");
+
+open.addEventListener("click", () => {
+    swapper.style.display = "block"
+})
+
+close.addEventListener("click", () => {
+    swapper.style.display = "none"
+})
+
+
+      
+
+
+ 
